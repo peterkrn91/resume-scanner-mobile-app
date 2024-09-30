@@ -9,13 +9,14 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.resumescannerapp.databinding.ActivityCvBinding
 import com.example.resumescannerapp.databinding.ActivityHomeBinding
 import com.example.resumescannerapp.databinding.ActivityMainBinding
+import com.example.resumescannerapp.databinding.ActivityCourseBinding
 
-class HomeActivity : AppCompatActivity() {
+class CourseActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityHomeBinding
+    lateinit var binding: ActivityCourseBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = ActivityCourseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val bottomNavigationView = binding.navbar

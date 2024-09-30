@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ResumeScannerApp"
         tools:targetApi="31">
         <activity
+            android:name=".CourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CvActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
