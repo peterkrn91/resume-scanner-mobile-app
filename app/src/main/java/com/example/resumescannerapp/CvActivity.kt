@@ -10,12 +10,12 @@ import com.example.resumescannerapp.databinding.ActivityCvBinding
 import com.example.resumescannerapp.databinding.ActivityHomeBinding
 import com.example.resumescannerapp.databinding.ActivityMainBinding
 
-class HomeActivity : AppCompatActivity() {
+class CvActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityHomeBinding
+    lateinit var binding: ActivityCvBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = ActivityCvBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val bottomNavigationView = binding.navbar
